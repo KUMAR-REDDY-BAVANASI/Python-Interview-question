@@ -1,4 +1,9 @@
 # Python Interview question
+https://github.com/iamrahuljha/Python-Interview-question
+ 
+open this link and download file 
+
+
 
 c,d=29,3289
 print(type(c)) # < class 'tuple' >
@@ -209,4 +214,75 @@ Ans. The above code will produce the following result.
 
 <'aeioubcdfg'>
 
-#
+#  What Are The Core Default Modules Available In Python? List Down A Few Of Them.
+Ans. Following are a few of the default modules available in Python.
+
+email – Help to parse, handle, and generate email messages.
+string – Contains functions to process standard Python strings.
+sqlite3 – Provides methods to work with the SQLite database.
+XML – Enables XML support.
+logging – Adds support for log classes and methods.
+traceback – Allows to extract and print stack trace details.
+
+
+# How Will You Print The Sum Of Numbers Starting From 1 To 100 (Inclusive Of Both)?
+print(sum(range(1,101)))  # output is 5050
+
+#  What is a Variable in Python?
+
+# How do you represent binary and hexadecimal numbers?
+
+If  ‘0b’ is leading then the Python interprets it as a binary number.
+
+‘0x’ as hexadecimal.
+
+# What is a module in Python?
+
+A module is a .py file in Python in which variables, functions, and classes can be defined. It can also have a runnable code.
+
+
+# How do you merge one dictionary with the other?
+
+Python provides an update() method which can be used to merge one dictionary on another.
+
+Example:
+
+>>> a = {'a':1}
+
+>>> b = {'b':2}
+
+>>> a.update(b)
+
+>>> a
+
+{'a': 1, 'b': 2}
+
+
+
+# Write a generator expression to get the numbers that are divisible by 2?
+
+a=[267,28,198,1,2,5,6]
+print([i for i in a if i%2==0])     # output is -- 28,198,2,6
+
+
+# print the table of 5. 
+a=5 
+for i in range(1,11):
+    print('mul of',a,a*i)
+
+# print the calendar of June 2019. 
+
+year=2019
+month=6
+import calendar
+print(calendar.month(year,month))
+
+# print the calendar of year 2019. 
+
+year=2019
+import calendar
+print(calendar.calendar(year))
+
+# Python Program to Print the Fibonacci sequence
+
+# Python Program to Display Fibonacci Sequence Using Recursion
